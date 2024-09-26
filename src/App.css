@@ -162,6 +162,10 @@ h2 {
   margin: 0.5rem;
 }
 
+input[type="checkbox"]:checked {
+  accent-color: var(--primary-colour);
+}
+
 .form__group.radio input[type="radio"]:checked + label {
   background-color: var(--primary-colour);
   color: var(--background-two);
